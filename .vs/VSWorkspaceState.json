@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.circleci"
+    "\\.circleci",
+    "\\udagram",
+    "\\udagram\\udagram-api",
+    "\\udagram\\udagram-frontend\\bin"
   ],
-  "SelectedNode": "\\.circleci\\config.yml",
+  "SelectedNode": "\\udagram\\udagram-api\\package.json",
   "PreviewInSolutionExplorer": false
 }

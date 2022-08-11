@@ -55,6 +55,10 @@ jobs:
           name: Front-End Deploy
           command: |
             npm run frontend:deploy
+      - run:
+          name: api Deploy
+          command: |
+            npm run api:deploy
 #  # deploy step will run only after manual approval
 #  deploy:
 #    docker:
