@@ -1,15 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.circleci",
     "\\.elasticbeanstalk",
     "\\udagram",
     "\\udagram\\udagram-api",
-    "\\udagram\\udagram-api\\src\\config",
-    "\\udagram\\udagram-frontend\\bin",
-    "\\udagram\\udagram-frontend\\src",
-    "\\udagram\\udagram-frontend\\src\\environments"
+    "\\udagram\\udagram-frontend"
   ],
-  "SelectedNode": "\\udagram\\udagram-api",
+  "SelectedNode": "\\udagram\\udagram-api\\package.json",
   "PreviewInSolutionExplorer": false
 }
