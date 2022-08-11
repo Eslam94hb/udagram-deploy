@@ -13,7 +13,7 @@
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "deploy": "npm run build && eb list && eb use Udagram-dev-env && eb deploy",
-    "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cp -R .elasticbeanstalk www/.elasticbeanstalk && cd www && zip -r Archive.zip . && cd ..",
+    "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cp -R .elasticbeanstalk www/.elasticbeanstalk && cd www && zip -r Archive.zip . && ls -a && cd ..",
     "test": "echo 'testing the backend'"
   },
   "keywords": [],
