@@ -60,6 +60,13 @@ jobs:
           command: |
             npm run api:deploy
 
+workflows:
+  udagram:
+    jobs:
+      - CI_CD:
+          filters:  
+            branches: 
+              only: master
 #  # deploy step will run only after manual approval
 #  deploy:
 #    docker:
