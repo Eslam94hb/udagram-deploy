@@ -63,9 +63,9 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - CI_CD:
-          filters:  
-            branches: 
+      - build:
+          filters:
+            branches:
               only: master
 #  # deploy step will run only after manual approval
 #  deploy:
