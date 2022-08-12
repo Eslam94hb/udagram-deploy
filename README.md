@@ -3,7 +3,7 @@
 The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
 > ## Deployment Process Documentation
-the Deployment Process Documentation [here](./Deployment/README.md).
+the Deployment Process Documentation [here](./Deploymentdocumentation/README.md).
 
 > ## Getting Started
 

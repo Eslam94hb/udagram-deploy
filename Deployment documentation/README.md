@@ -15,7 +15,7 @@
  ## Pipeline Process
 
 - `.circleci/config.yml` is added with all commands needed to complete the pipeline
-- Screenshots of the circleci process is added [here](./CircleCI).
+- Screenshots of the circleci process is added [here](./pipelineprocess/CircleCI).
 
 ### Continuous integration:
 - The scripts needed for installing, testing and building the frontend and backend of the application are found in the package.json files in `udagram-api & udagram-frontend` folders.
